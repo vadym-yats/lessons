@@ -1,0 +1,7 @@
+/* підключаєм обнулення стилів */
+@import url("reset.css");
+
+/* головні стилі */
+.header-title{
+    color: red;
+}
