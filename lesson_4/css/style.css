@@ -1,0 +1,80 @@
+/* підключаєм обнулення стилів */
+@import url("reset.css");
+
+/* головні стилі */
+/* header.header .header-content .header-title {
+    color: white;
+} */
+
+.header .header-content .header-title{
+    color: purple;
+    /* колір буде фіолетовим, оскільки селектор
+    більш конкретно вказує на елемент */
+}
+
+.header-title {
+    color: khaki;
+}
+
+.header-content .header-list .list-item .item-link {
+    color: green;
+    /* елементи списку в хедері будуть зеленими,
+    оскільки  звертаюсь до конкретних елементів,
+    конкретно в хедері.
+    (якщо ми запишемо селектор ".header .header-content .header-list .list-item .item-link",
+    то він буде мати більший пріоритет. правило №2 з уроку.)
+    в футері колір залишиться aqua*/
+}
+
+ul li a{
+    color: aqua;
+    /* всі елементи списку ul на сторінці
+    (в тому числі і в футері) змінили колір
+    на aqua */
+}
+
+.hero .hero-content .block p {
+    color: greenyellow;
+}
+
+.hero .hero-content p {
+    color: grey;
+}
+
+.hero p {
+    color: hotpink;
+}
+
+.footer-content > .footer-list + p{
+    color: silver;
+}
+
+.footer-list ~ p{
+    color: darkblue;
+}
+
+.footer .footer-content > .footer-list + p {
+    color: lightblue;
+}
+
+p {
+    color: yellow;
+    /* для всіх p, до яких ми не звертались */
+}
+
+a {
+    color: blue;
+}
+
+span {
+    color: navy;
+}
+
+* {
+    color: red;
+    /* найнижчий рівень пріоритетності
+    буде застосований до всіх html-елементів до яких
+    ми не звертаємось.
+    можна перезаписати всі стилі та надати найвищий
+    пріоритет за допомогою методу !important */
+}
