@@ -1,0 +1,250 @@
+/* підключення шрифтів */
+@import url("fonts.css");
+
+/* обнулення стилів */
+@import url("reset.css");
+
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+}
+
+/* header */
+.header-block {
+    max-width: 1133px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+
+.header-text-block {
+    width: 503px;
+    display: inline-block;
+    padding-top: 60px;
+    margin-right: 75px;
+}
+
+.intro-text {
+    font-family: "Cormorant Infant", serif;
+    color: #D58417;
+    font-size: 20px;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+}
+
+.header-title {
+    font-family: "Cormorant Infant", serif;
+    color: #000;
+    font-size: 64px;
+    margin-bottom: 31px;
+    text-transform: capitalize;
+}
+
+.header-text {
+    font-family: "Cormorant Infant", serif;
+    color: #606060;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.header-img {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.small-img,
+.big-img {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #502203;
+    border-radius: 235px;
+}
+
+.small-img {
+    margin-right: 30px;
+}
+
+.header-small-img,
+.header-big-img {
+    max-width: 100%;
+}
+
+.header-small-img {
+    margin-left: -10px;
+    margin-bottom: -10px;
+    padding-top: 14px;
+}
+
+.header-big-img {
+    margin-left: -11px;
+    margin-bottom: -15px;
+    padding-top: 19px;
+}
+
+
+
+/* main */
+.block {
+    max-width: 1248px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+
+.sub-text {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 0;
+}
+
+.rectangle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    margin-right: 6px;
+}
+
+.sub-block {
+    margin-bottom: 100px;
+}
+
+.sub-title {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.hero-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+    color: #37393F;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.21;
+    margin-bottom: 70px;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.21;
+    text-transform: capitalize;
+    margin-bottom: 11px;
+}
+
+.text p {
+    line-height: 1.46;
+    margin-bottom: 15px;
+}
+
+.text {
+    margin-bottom: 32px;
+}
+
+.info {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.info span {
+    color: #40DDB6;
+    font-weight: 400;
+    margin-left: 12px;
+}
+
+.color-text {
+    margin-bottom: 32px;
+}
+
+.color-text p {
+    color: #40DDB6;
+    line-height: 1.46;
+    margin-bottom: 15px;
+}
+
+.text .link{
+    color: #40DDB6;
+    font-weight: 500;
+}
+
+/* project block */
+.project-block {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.project-title {
+    text-transform: capitalize;
+    line-height: 1.27;
+    margin-bottom: 13px;
+}
+
+.text .project-text {
+    margin-bottom: 35px;
+}
+
+.project-list {
+    padding-left: 16px;
+}
+
+.project-list li {
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+/* clothing block */
+.clothing-block {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 50px 36px 50px 15px;
+}
+
+.clothing-title {
+    font-family: "Core Sans C", sans-serif;
+    font-size: 28px;
+    color: #3C4242;
+    line-height: 1.19;
+    margin-bottom: 30px;
+}
+
+.clothing-text {
+    margin-bottom: 25px;
+}
+
+.clothing-subtitle {
+    font-family: "Core Sans C", sans-serif;
+    font-size: 20px;
+    color: #807D7E;
+    line-height: 1.67;
+    margin-bottom: 25px;
+    letter-spacing: 0.4px;
+}
+
+.clothing-text p {
+    font-family: "Causten";
+    color: #807D7E;
+    font-size: 20px;
+    line-height: 1.67;
+    margin-bottom: 20px;
+    letter-spacing: 0.4px;
+}
+
+.clothing-text p span {
+    font-weight: 700;
+}
+
+.more-info {
+    font-family: "Core Sans C";
+    color: #807D7E;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+}
