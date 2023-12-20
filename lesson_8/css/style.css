@@ -1,0 +1,341 @@
+/* підключення шрифтів */
+@import url("fonts.css");
+
+/* обнулення стилів */
+@import url("reset.css");
+
+
+body {
+    font-size: 18px;
+}
+
+/* CONSULTING BLOCK */
+.consulting {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+}
+
+.business {
+    max-width: 703px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+
+.business-subtitle {
+    color: #37393F;
+    font-weight: 500;
+    line-height: 1.22;
+    margin-bottom: 16px;
+    padding-left: 18px;
+    text-transform: capitalize;
+
+    background: url("../img/box.jpg") 0 5px no-repeat;
+}
+
+.business-title-width {
+    max-width: 415px;
+}
+
+.business-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.21;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.business-text {
+    line-height: 1.46;
+    margin-bottom: 20px;
+}
+
+.business-text p {
+    margin-bottom: 15px;
+}
+
+.business-list {
+    margin-bottom: 43px;
+}
+
+.business-list-item {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 20px;
+    line-height: 1.65;
+    margin-bottom: 23px;
+    padding-left: 35px;
+
+
+    background: url("../img/li.svg") 0 3px no-repeat;
+}
+
+.business-advantages {
+    margin-bottom: 37px;
+    font-size: 0;
+}
+
+.business-block {
+    max-width: 295px;
+    padding: 32px 32px 32px 92px;
+    border: 1px solid #E3E3E3;
+    display: inline-block;
+}
+
+.business-experience {
+    margin-right: 21px;
+
+    background: url("../img/experience.svg") 32px 32px / 41px no-repeat;
+}
+
+.business-winner {
+    background: url("../img/winner.svg") 32px 32px / 41px no-repeat;
+}
+
+.business-experience-title,
+.business-winner-title {
+    font-family: "Poppins";
+    color: #37393F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.business-experience-text,
+.business-winner-text {
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.business-btn {
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.22;
+    text-transform: capitalize;
+
+    padding: 22px 27px;
+
+    background-color: #6B77E5;
+}
+
+/* FASHION BLOCK */
+.fashion {
+    max-width: 1270px;
+    padding: 50px 15px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.fashion-shop {
+    display: inline-block;
+    width: 50%;
+    font-family: "Core Sans C", sans-serif;
+    min-height: 640px;
+    vertical-align: top;
+    padding: 180px 74px 0 74px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.70) 0%, rgba(0, 0, 0, 0.70) 100%), url("../img/leaf.jpg") center / cover no-repeat;
+}
+
+.fashion-img {
+    display: inline-block;
+    min-height: 640px;
+    width: 50%;
+    vertical-align: top;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+
+    background: url("../img/human.jpeg") top / cover no-repeat;
+}
+
+.shop-title {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.47;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.208px;
+    max-width: 466px;
+}
+
+.shop-text {
+    font-family: "Causten", sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    max-width: 451px;
+    margin-bottom: 50px;
+}
+
+.shop-btn {
+    display: inline-block;
+    font-family: "Causten", sans-serif;
+    color: #3C4242;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 44px;
+    border-radius: 8px;
+    text-transform: capitalize;
+
+    background-color: #fff;
+}
+
+/* CLOTHING BLOCK */
+.clothing {
+    max-width: 1270px;
+    padding: 50px 15px;
+    margin: 0 auto;
+
+    font-family: "Causten";
+    color: #807D7E;
+    font-size: 20px;
+}
+
+.clothing-title {
+    font-family: "Core Sans C", sans-serif;
+    color: #3C4242;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-left: 21px;
+    margin-bottom: 30px;
+
+
+    background: url("../img/clothing.png") no-repeat;
+}
+
+.clothing-subtitle {
+    font-family: "Core Sans C", sans-serif;
+    font-weight: 700;
+    padding-left: 21px;
+    margin-bottom: 25px;
+}
+
+.clothing-text {
+    line-height: 1.67;
+    padding-left: 21px;
+    letter-spacing: 0.4px;
+}
+
+.clothing-text p {
+    margin-bottom: 20px;
+}
+
+.clothing-text p span {
+    font-weight: 700;
+}
+
+.clothing-btn {
+    padding-left: 21px;
+    font-weight: 700;
+}
+
+/* PROJECT BLOCK */
+.project {
+    max-width: 1250px;
+    padding: 50px 15px;
+    margin: 0 auto;
+}
+
+.project-text-block {
+    font-family: "Inter", sans-serif;
+    color: #37393F;
+    font-size: 18px;
+    text-align: center;
+    max-width: 852px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+}
+
+.project-subtitle {
+    display: inline-block;
+    font-weight: 500;
+    line-height: 1.22;
+    padding-left: 18px;
+    margin-bottom: 14px;
+
+    background: url("../img/box.jpg") 0 5px no-repeat;
+}
+
+.project-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 14px;
+}
+
+.project-text {
+    color: #7D7D7D;
+    line-height: 1.46;
+}
+
+.project-row {
+    font-size: 0;
+    margin-bottom: 58px;
+}
+
+.project-card {
+    display: inline-block;
+    margin-right: 34px;
+    width: 384px;
+}
+
+.project-last-card {
+    margin-right: 0;
+}
+
+.project-background {
+    height: 501px;
+    margin-bottom: 24px;
+}
+
+.link-bg-one {
+    background: url("../img/comp.png") center / cover no-repeat;
+}
+
+.link-bg-two {
+    background: url("../img/laptop.png") center / cover no-repeat;
+}
+
+.link-bg-three {
+    background: url("../img/phone.png") center / cover no-repeat;
+}
+
+.link-bg-four {
+    background: url("../img/woman.png") center / cover no-repeat;
+}
+
+.link-bg-five {
+    background: url("../img/schedule.png") center / cover no-repeat;
+}
+
+.link-bg-six {
+    background: url("../img/coffee.png") center / cover no-repeat;
+}
+
+.link-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 10px;
+}
+
+.link-date {
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 14px;
+    line-height: 1.46;
+    padding-left: 25px;
+    min-height: 22px;
+
+    background: url("../img/calendar.svg") 0 -2px no-repeat;
+}
