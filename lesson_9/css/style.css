@@ -1,0 +1,553 @@
+/* підключення шрифтів */
+@import url("fonts.css");
+
+/* обнулення стилів */
+@import url("reset.css");
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+}
+
+/* practice */
+.practice-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 15px;
+    font-size: 0;
+}
+
+.practice-condition {
+    text-align: center;
+}
+
+.practice-condition > a:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+.btn-practice {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 22px 35px;
+    font-size: 18px;
+
+    background-color: #6B77E5;
+}
+
+.btn-active:active {
+    text-decoration: underline;
+}
+
+.btn-visited:visited {
+    background-color: #8a94f0;
+}
+
+.btn-focus:focus {
+    outline: 3px solid blue;
+}
+
+.show-box {
+    height: 100px;
+    width: 100px;
+    background-color: yellowgreen;
+    visibility: hidden;
+}
+
+.show-box:target {
+    visibility: visible;
+}
+
+.btn-practice:hover {
+    background-color: #3c4de7;
+}
+
+.practice-position {
+    font-size: 18px;
+    line-height: 1.4;
+    font-size: 0;
+    text-align: center;
+    color: #000;
+}
+
+.practice-position > *:not(:last-child) {
+    margin-right: 15px;
+}
+
+.position-text {
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #8a94f0;
+}
+
+.position-text > *:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.text-first-child p:first-child {
+    background-color: plum;
+}
+
+.text-first-type p:first-of-type {
+    background-color: yellowgreen;
+}
+
+.text-last-child p:last-child {
+    background-color: yellow;
+}
+
+.text-last-type p:last-of-type {
+    background-color: royalblue;
+}
+
+.text-nth-child p:nth-child(2) {
+    background-color: khaki;
+}
+
+.text-nth-odd p:nth-child(odd) {
+    background-color: violet;
+}
+
+.text-nth-even p:nth-child(even) {
+    background-color: chocolate;
+}
+
+/* ABOUT */
+.about {
+    max-width: 705px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.about-us > *:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.about-subtitle,
+.work-subtitle {
+    color: #37393F;
+    font-weight: 500;
+    line-height: 1.22;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+
+.about-subtitle::before,
+.consulting-subtitle::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #40DDB6;
+    margin-right: 6px;
+}
+
+.about-title,
+.consulting-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.21;
+    text-transform: capitalize;
+}
+
+.about-title {
+    margin-bottom: 10px;
+    max-width: 415px;
+}
+
+.about-text {
+    line-height: 1.46;
+    margin-bottom: 48px;
+}
+
+.about-text > *:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+.about-vision {
+    padding: 28px 38px;
+    border: 1px solid #E3E3E3;
+    transition: all 0.3s;
+}
+
+.about-vision:hover {
+    box-shadow: 2px 12px 25px -9px rgba(156,156,156,0.78);
+    transition: all 0.3s;
+}
+
+.about-vision > *:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+.vision-title,
+.consulting-subtitle {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.vision-title::before {
+    content: url(../img/li.svg);
+    display: inline-block;
+    margin-right: 19px;
+    vertical-align: middle;
+}
+
+.vision-text {
+    line-height: 1.46;
+    margin-left: 46px;
+}
+
+.work {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.work-title {
+    margin-bottom: 41px;
+}
+
+.work-services {
+    font-size: 0;
+    padding-top: 36px;
+}
+
+.work-services > :not(:last-child) {
+    margin-right: 31px;
+}
+
+.services-card {
+    display: inline-block;
+    max-width: 386px;
+    background-color: #f4f4f4;
+    padding: 58px 43px;
+    transition: all 0.3s;
+}
+
+.services-card > *:last-child {
+    margin-bottom: 0;
+}
+
+.services-card:hover {
+    box-shadow: 2px 12px 25px -9px rgba(156,156,156,0.78);
+    transition: all 0.3s;
+}
+
+.card-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.27;
+    margin-bottom: 16px;
+}
+
+.card-text {
+    font-size: 18px;
+    line-height: 1.46;
+    margin-bottom: 37px;
+}
+
+.cadr-link {
+    color: #6B77E5;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.22;
+}
+
+.cadr-link:hover {
+    text-decoration: underline;
+}
+
+.card-appointment::before,
+.card-consultation::before,
+.card-service::before {
+    content: "";
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    vertical-align: top;
+    margin-top: -95px;
+}
+
+.card-appointment::before {
+    background: url(../img/appointment.png) center no-repeat;
+}
+
+.card-consultation::before {
+    background: url(../img/consulting.png) center no-repeat;
+}
+
+.card-service::before {
+    background: url(../img/services.png) center no-repeat;
+}
+
+.business {
+    max-width: 722px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+
+.business-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.27;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.business-text {
+    line-height: 1.46;
+}
+
+.business-text p:last-child {
+    margin-bottom: 40px;
+}
+
+.business-subtitle {
+    color: #6B77E5;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 16px;
+}
+
+.benefits {
+    font-size: 0;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.benefits-img {
+    display: inline-block;
+    max-width: 331px;
+    margin-right: 29px;
+    vertical-align: top;
+}
+
+.benefits-block {
+    display: inline-block;
+    max-width: 332px;
+}
+
+.benefits-title {
+    font-family: "Poppins", sans-serif;
+    color: #37393F;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 15px;
+}
+
+.benefits-subtitle {
+    font-family: "Poppins", sans-serif;
+    color: #40DDB6;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.27;
+    margin-bottom: 21px;
+}
+
+.benefits-list > li:not(:last-child) {
+    margin-bottom: 29px;
+}
+
+.benefits-list-item {
+    font-size: 18px;
+}
+
+.benefits-list-item::before {
+    content: url(../img/li.svg);
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+
+.jewels {
+    max-width: 1244px;
+    padding: 0 15px;
+    margin: 0 auto 50px auto;
+    font-family: "Cormorant Infant", serif;
+    color: #000;
+    font-size: 0;
+}
+
+.jewels-text-block,
+.jewels-cards,
+.jewels-card {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.jewels-text-block {
+    max-width: 488px;
+    margin-top: -75px;
+}
+
+.jewels-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.jewels-title::after {
+    content: "";
+    display: block;
+    width: 63%;
+    height: 3px;
+    background-color: #78473B;
+    margin-top: 13px;
+}
+
+.jewels-card {
+    max-width: 334px;
+}
+
+.jewels-card-img{
+    display: inline-block;
+    border: 1px solid #000;
+    max-width: 334px;
+    max-height: 381px;
+    margin-bottom: 34px;
+}
+
+.jewels-card-img img {
+    margin-top: 9px;
+    margin-left: 10px;
+    max-height: 381px;
+}
+
+.jewels-card:not(:last-child) {
+    margin-right: 55px;
+}
+
+.jewels-card-number,
+.jewels-card-title {
+    font-size: 46px;
+}
+
+.jewels-card-title {
+    margin-bottom: 31px;
+}
+
+.jewels-card-subtitle,
+.jewels-link-price {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.40;
+}
+
+.jewels-link {
+    transform: scale(1);
+    transition: all 0.3s;
+}
+
+.jewels-link:hover {
+    transform: scale(1.02);
+    transition: all 0.3s;
+}
+
+
+.game {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 0px;
+    background-color: #000;
+    min-height: 700px;
+}
+
+.game-title {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.21;
+    margin-bottom: 30px;
+}
+
+.game-line {
+    background-color: #40DDB6;
+}
+
+.game-line-1 {
+    width: 50px;
+    height: 80px;
+}
+
+.game-line-2 {
+    width: 990px;
+    height: 50px;
+}
+
+.game-line-3 {
+    width: 40px;
+    height: 200px;
+    margin-left: auto;
+}
+
+.game-line-4 {
+    width: 990px;
+    height: 40px;
+    margin-left: auto;
+}
+
+.game-line-5 {
+    width: 30px;
+    height: 100px;
+}
+
+.game-line-6 {
+    width: 600px;
+    height: 20px;
+    display: inline-block;
+}
+
+.game-line-7 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.game-line-2,
+.game-line-3,
+.game-line-4,
+.game-line-5,
+.game-line-6,
+.game-line-7 {
+    visibility: hidden;
+}
+
+.game-line-1:hover,
+.game-line-2:hover,
+.game-line-3:hover,
+.game-line-4:hover,
+.game-line-5:hover,
+.game-line-6:hover {
+    visibility: visible;
+}
+
+.game-line-1:hover + .game-line-2,
+.game-line-2:hover + .game-line-3,
+.game-line-3:hover + .game-line-4,
+.game-line-4:hover + .game-line-5,
+.game-line-5:hover + .game-line-6,
+.game-line-6:hover + .game-line-7,
+.game-line-7:hover {
+    visibility: visible;
+}
